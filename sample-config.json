@@ -1,0 +1,25 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CD:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-156"
+    },
+
+    "description": "",
+
+    "platforms": [],
+
+    "accessories": [
+        {
+            "accessory": "InsteonHub",
+            "username": "admin",
+            "password": "password",
+            "host": "ip.ad.re.ss",
+            "port": "25105",
+            "device_name": "Contact Sensor",
+            "device_id": "FF11AA",
+            "device_type": "contact",
+        }
+    ]
+}
